@@ -55,6 +55,7 @@ class ThreadB implements Runnable {
     }
     @Override
     public void run() {
+        // the moniter order is reversed in threadB
         synchronized (s2) {
             //for (int i = -1; i > -10; i--)
             s1.append(3);
