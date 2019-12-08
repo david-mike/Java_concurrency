@@ -1,3 +1,4 @@
+package com.qingdong.twoThread.print;
 
 public class NumberPrint implements Runnable{
     static int counter = 1;

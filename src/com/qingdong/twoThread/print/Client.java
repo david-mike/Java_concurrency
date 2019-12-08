@@ -1,3 +1,5 @@
+package com.qingdong.twoThread.print;
+
 public class Client {
     public static void main(String[] args) {
         LockObject lo = new LockObject();

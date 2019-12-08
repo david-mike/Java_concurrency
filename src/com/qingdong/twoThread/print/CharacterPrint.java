@@ -1,3 +1,5 @@
+package com.qingdong.twoThread.print;
+
 public class CharacterPrint implements Runnable {
     LockObject lo;
     public CharacterPrint(LockObject lo) {
